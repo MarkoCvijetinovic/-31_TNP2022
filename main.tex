@@ -1,4 +1,4 @@
-\documentclass{report}
+\documentclass{article}
 
 \usepackage[serbian]{babel}
 
@@ -37,9 +37,10 @@
 		\end{minipage}\\[5cm]
 		\Large{Beograd, Novembar 2022.}
 	\end{center}
-	
+	\pagebreak
 	\tableofcontents
-	\chapter{Uvod}
+    \pagebreak
+	\section{Uvod}
 	
 	Danas je razvoj nauke i tehnike toliko ubrzan, da se svet nalazi u jednoj od faza koje često nazivamo fazama revolucionarnih promena. Razvoj nauke i novih tehnologija, po mišljenjima mnogih, utiče na kvalitativne promene kako u proizvodnji, tako i u društvu uopšte.
 	
@@ -51,7 +52,7 @@
 	Da bi smo razumeli pojam i značaj robotike, prvo treba da se upoznamo sa pojmom \href{https://www.sciencefriday.com/segments/the-origin-of-the-word-robot/}{"robot"}.
 	Obično kada se pomene reč robot pomislimo na čovekolike robote iz filmova, transformerse ili čak robote koji rade u fabrikama. Danas je robotika razvijena do te mere, da postoji mnogo različitih vrsta robota kako u nauci i industriji, tako i u svakodnevnom životu. Robot je mašina sa automatskim upravljanjem koja zamenjuje ljudski napor, iako uglavnom ne liči na čoveka po izgledu ili po načinu obavljanja poslova. Dakle, robotika je grana uključuje koncepciju, dizajn, proizvodnju i rad robota. \cite{robots in nowdays}
 	
-	\section{Tri zakona robotike}
+	\subsection{Tri zakona robotike}
 	Tri zakona robotike (eng. "Three laws of robotics") je osmislio pisac naučne fantastike Isak Asimov. Prvi put se pojavljuju u njegovoj kratkoj priči "Kolo-naokolo" (eng. "Runaround") iz 1942. godine, i oni glase \cite{three laws of robotics, runaround}:
 	\begin{enumerate}
 	\item \textbf{Robot ne sme povrediti ljudsko biće niti, svojom neaktivnošću, dozvoliti da ljudsko biće bude povređeno}.
@@ -69,7 +70,7 @@
 	
 	
 	
-	\chapter{Saradnički roboti}
+	\section{Saradnički roboti}
 	
 	Usled restrikcija postavljenih zbog COVID-19 pandemije, dolazi do sve veće potražnje za robotima koji bi komplementirali rad zaposlenih. Toliko, da popularnost saradničkih robota dovodi do nestajanja strepnji kako će roboti preuzeti poslove ljudima. Realnost je da oni pomažu ljudima da rade lakše i bezbednije dok riboti preuzimaju mesta nepoželjna za ljude.
 	
@@ -86,11 +87,11 @@
 	\begin{figure}
 		\centering
 		\includegraphics[scale=0.41]{Cobot.jpg}
-		\caption{Slika preuzeta sa https://kinemarobotica.com.}
+		\caption{Slika preuzeta sa \url{https://kinemarobotica.com.}}
 		\label{cobot}
 	\end{figure}
 	
-	\chapter{Roboti dostavljači}
+	\section{Roboti dostavljači}
 	Slično kao i saradnički roboti, ovaj trend je nastao usled COVID-19 epidemije zarad smanjenja kontakta između zaposlenih i mušterija jer to može dovesti do širenja zaraze.
 	
 	Automatizovana dostava hrane i ostalih manjih porudžbina je dostigla toliku popularnost za svega godinu ili dve, da neke Američke države već imaju zakone koje regulišu gde roboti dostavljači smeju da se kreću. Još jedna prednost robota u ovom poslu je fleksibilnost i u stanju su da obave i one porudžbine čija je isporuka zahtevana istog dana.
@@ -110,7 +111,7 @@
 	\vspace{0.25cm}
 	Zabeležava se rast broja porudžbina i smanjenje traženog roka isporuke iz godine u godinu, što doprinosi povećanju potražnje robota za dostavu. \cite{robotics2022, sameday}  
 	
-	\chapter{Prediktivno održavanje}
+	\section{Prediktivno održavanje}
 	Robotika može da uštedi ogromne količine novca tokom vremena, ali takođe dolazi sa troškovima održavanja kako bi se obezbedile vrhunske performanse. Kao rezultat, prediktivno održavanje je u porastu u robotici ove godine. Prediktivno održavanje koristi tehnologiju kao što su senzori Interneta stvari za praćenje performansi i fizičkog stanja robota. Podaci senzora otkrivaju pad performansi koji ukazuje kada je vreme da se završi održavanje pre nego što je potrebna velika popravka.
 	
 	IoT senzori su takođe korisni u robotskoj automatizaciji procesa, gde mogu da pomognu u vođenju robota u veoma korisnim zadacima, kao što je kontrola kvaliteta. IoT i tehnologije daljinskog otkrivanja i praćenja postaju posebno popularne u skladištima, gde se roboti koriste za sve, od sakupljanja artikala sa polica do pakovanja kutija za otpremu.
@@ -121,25 +122,26 @@
 	\vspace{2cm}
 	\includegraphics[scale=0.37]{dijagram.jpeg}
 	Prediktivno održavanje se odnosi na upotrebu proaktivnih metoda održavanja zasnovanih na podacima koje su dizajnirane da analiziraju stanje opreme i pomažu u predviđanju kada održavanje treba da se izvrši. (Slika preuzeta sa \url{https://www.heavy.ai/technical-glossary/predictive-maintenance}).
-	
-	\chapter{Povećanje kompatibilnosti}
+
+	\section{Povećanje kompatibilnosti}
 	Sa toliko usvajanja i inovacija u robotici, raznovrsnost i prilagođavanje postaju briga za neka preduzeća. U 2022. sve više programera robotike ima to na umu. Industrijski stručnjaci su istakli
 	\href{https://enterprisersproject.com/article/2022/1/4-robotic-process-automation-rpa-trends-watch-2022}{trend ka saradnji}.u RPA ove godine, uz napomenu da se oslanja na kombinovanje brojnih tehnologija za maksimalnu efikasnost.
 	Ovaj trend obuhvata AI i mašinsko učenje, ali i druge robote. Proizvodnoj kompaniji, na primer, mogu biti potrebni potpuno različiti roboti za različite delove svog proizvodnog procesa ili za pravljenje različitih proizvoda. Postaje tržišna prednost za robote da budu lako kompatibilni sa drugim, potpuno drugačijim robotima. Ovo je zanimljiv kontrast u odnosu na druge industrije, ali ukazuje na budućnost koja se oslanja na robote.
 	\cite{robotics2022}
-\chapter{Kuhinjski roboti}
+\section{Kuhinjski roboti}
 Oblast robotike se jako brzo prosiruje u gotovo svakoj oblasti svakodnevnog zivota, kuhinjski roboti dobijaju posebnu pažnju.Iako je ljudima tesko da povežu robotiku sa kuhinjskim poslovima. Iskreno malo je i čudno zamisliti robota kako pruzima ulogu nekog poznatog kuvara ili smišlja neki novi recept.Medjutim radnika tog profila je jako malo u prehrambenoj industriji, a preduzećima je potrebno rešenje koje može zadovoljiti potražnju za brzim uslugama oko hrane. Odličan primer robotike u ovoj industrijskoj oblasti je robot za pravljenje pice koji se u prodaji našao 2021.godine. Njegovo ime je ,,Picnic pizza making robot." Model ovog robota u stanju je da napravi čak 100 porudžbina po satu, takodje je lak za rukovanje i nije potrebna neka prevelika obuka da bi se s njim rukovodilo. Ovaj izum bio je nagradjen od strane Nacionalnog udruženja restorana 2021. godine. Doprineo je tome da se reši manjak radnika u toj industrijskoj sferi ujedno je i povećao higijenske standarde restorana.
 \href{https://www.youtube.com/embed/_dCC96BOlDU}{Picnic pizza-making robot. (video)}
-\chapter{Primena veštačke inteligencije u robotici}
+
+\section{Primena veštačke inteligencije u robotici}
 Kako se robotika razvijala uz nju se razvijala i vestacka inteligencija.Globalna studija McKinsey je 2021. godine
 otkrila da je 56% biznisa koristilo veštačku inteligenciju bar za jednu funkciju koja im je donela brojne benefite. Na primer, kompanije su doživele od 1-2% skoka u prodaji dok su biznisi u industriji proizvodnje
 imali i do 20% smanjenih troškova. Interesantno je da su te kompanije imale izveštaje za smanjene troškove nakon adopcije veštačke inteligencije
 u periodu između 2019 i 2020 godine. To potencijalno ukazuje porast u inovaciji i adopciji robotike i velikoj primeni veštačke inteligencije tokom pandemije COVID-19. U 2022. godini veštačka inteligencija ostaje kao najprimenljiviji trend u robotici zato što njena primena nastavlja da se razvija. Biznisi mogu da integrišu veštačku inteligenciju u automatske sisteme robotike kako bi
 kreirali pametnu automatizaciju. Procesi kao što su korisnička podrška i upravljanje zalihama mogu se  automatizovati što ne bi bilo moguće samo sa robotikom. Inovacije u mašinskom učenju, kompjuterskoj viziji i obradi prirodnog jezika samo će nastaviti da povećavaju popularnost veštačke inteligencije pored i unutar robotskih sistema.
 	
-	\chapter{Zaključak}
+	\section{Zaključak}
 	
-
+\pagebreak
 \begin{thebibliography}{99}
 	
 	\bibitem{robotics2022}
@@ -147,10 +149,10 @@ kreirali pametnu automatizaciju. Procesi kao što su korisnička podrška i upra
     AI Žurnal (\emph{engl.} The AI Journal) je vebsajt Toma Alena (\emph{engl.} Tom Allen) koji intervjuiše eksperte iz robotike.
 	
 	\bibitem{cobots}
-	https://www.robotics247.com/article/collaborative\_robots\_raise\_the\_bar\_for\_productivity Robotics 247 je vebsajt koji je napravljen u saradnji sa nekim kompanijama iz oblasti robotike i veštačke inteligencije.
+	https://www.robotics247.com/article/collaborative\_robots\_raise\_the\_bar\_for\_productivity je vebsajt koji je napravljen u saradnji sa nekim kompanijama iz oblasti robotike i veštačke inteligencije.
 	
 	\bibitem{sameday}
-	https://www.digitalcommerce360.com/
+	https://www.digitalcommerce360.com/ je vebsajt kompanije koja prati prodaju i performanse kompanija za digitalnu kupovinu.
 	
 	\bibitem{robots2022}
 	https://www.marktechpost.com/2022/07/18/top-emerging-robotics-trends-in-2022/
