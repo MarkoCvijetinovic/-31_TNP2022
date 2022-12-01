@@ -1,0 +1,50 @@
+\documentclass{beamer}
+\usepackage[serbian]{babel}
+\usetheme{Boadilla}
+\usecolortheme{seahorse}
+\usefonttheme{serif}
+
+\usepackage{lipsum}
+\usepackage{graphicx,xcolor}
+\usepackage{amsmath,amssymb,amsfonts}
+
+\AtBeginSection[]{ 
+    \begin{frame}{Outline} 
+        \tableofcontents[currentsection] 
+    \end{frame} }
+
+\title{Robotika u 2022.}
+\subtitle{}
+\institute[Tehničko i naučno pisanje]{Matematički fakultet\\Univerziteta u Beogradu}
+\author[]{Đuro Cerović\\Marko Cvijetinović\\Luka Matić\\Mihajlo Radojević}
+\date{12/2022}
+\titlegraphic{\includegraphics[width=2cm]{images/logo/iiserm_logo.jpg}}
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+
+\section{Uvod}
+\input{segments/1_intro}
+
+\section{Saradnički roboti}
+\input{segments/2_build}
+
+\section{Roboti dostavljači}
+\input{segments/3_argue}
+
+\section{Conclusion}
+\input{segments/4_conclude}
+
+
+\section*{References}
+\begin{frame}
+    \frametitle{References}
+    \bibliographystyle{amsalpha}
+    \bibliography{ref.bib}
+\end{frame}
+
+\end{document}
